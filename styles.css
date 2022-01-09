@@ -53,15 +53,18 @@ main .wrapper ul{
   main .wrapper ul{
     grid-template-columns: 1fr;
   }
-  main .wrapper ul li a{
-    line-height: 1.5;
-  }
 }
 
 main .wrapper ul li a{
   text-decoration: none;
   color: #ffffff;
   font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  main .wrapper ul li a{
+    line-height: 1.5;
+  }
 }
 
 footer{
